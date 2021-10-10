@@ -6,11 +6,13 @@ GO言語ハンズオンのコンテナです。
 1. リポジトリをクローン
 2. 1.でクローンしたリポジトリに移動
     * `$ cd go_dev_container`
-3. vscodeでremote-containerを起動します
+3. vscodeの拡張機能（Remote Development）を導入する
+    * ![スクリーンショット 2021-10-11 8 14 51](https://user-images.githubusercontent.com/16306537/136715976-b72a4a70-06e2-4f94-8f27-bbe555d73d01.png)
+4. vscodeでremote-containerを起動します
     * ![スクリーンショット 2021-10-10 215529](https://user-images.githubusercontent.com/16306537/136697927-6c3886a1-0dc2-4066-83c0-f0e6b67d5337.jpg)
-4. デバッグ
+5. デバッグ
     * 止めたいとこををクリックしてF5
-5. あとはいっぱい開発する!
+6. あとはいっぱい開発する!
 
 # 参考にさせていただいたサイト
 * [Go のモジュール管理【バージョン 1.17 改訂版】](https://zenn.dev/spiegel/articles/20210223-go-module-aware-mode)
