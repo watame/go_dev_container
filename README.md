@@ -11,3 +11,8 @@ GO言語ハンズオンのコンテナです。
 4. デバッグ
     * 止めたいとこををクリックしてF5
 5. あとはいっぱい開発する!
+
+# 参考にさせていただいたサイト
+* [Go のモジュール管理【バージョン 1.17 改訂版】](https://zenn.dev/spiegel/articles/20210223-go-module-aware-mode)
+* [VSCode devcontainerでローカルを汚さずに、快適なGo言語の開発環境を整える](https://zenn.dev/bun913/articles/f0a6c6177a4716)
+* [WSL2 + Docker Desktop + VSCode（Remote - Containers） でGoの開発環境構築](https://qiita.com/poramal/items/11912b5533ec8e7dbaac)
