@@ -7,7 +7,7 @@ GO言語ハンズオンのコンテナです。
 2. 1.でクローンしたリポジトリに移動
     * `$ cd go_dev_container`
 3. vscodeでremote-containerを起動します
-    * `$ docker-compose build`
+    * ![スクリーンショット 2021-10-10 215529](https://user-images.githubusercontent.com/16306537/136697927-6c3886a1-0dc2-4066-83c0-f0e6b67d5337.jpg)
 4. デバッグ
     * 止めたいとこををクリックしてF5
 5. あとはいっぱい開発する!
