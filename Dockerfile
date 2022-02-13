@@ -26,9 +26,6 @@ RUN go install github.com/nsf/gocode@latest
 RUN go install github.com/acroca/go-symbols@latest
 RUN go install github.com/fatih/gomodifytags@latest
 RUN go install github.com/josharian/impl@latest
-# del-dapは明示的にインストール先の名称を変更する必要があるので、インストール後にバイナリファイルを移動させる
-# https://github.com/golang/vscode-go/blob/v0.26.0/docs/dlv-dap.md#updating-dlv-dap
-RUN GOBIN=/tmp/ go install github.com/go-delve/delve/cmd/dlv@master && \
-    mv /tmp/dlv $GOPATH/bin/dlv-dap
+RUN go install github.com/go-delve/delve/cmd/dlv@latest
 RUN go install golang.org/x/lint/golint@latest
 RUN go install golang.org/x/tools/gopls@latest
